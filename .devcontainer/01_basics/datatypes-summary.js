@@ -37,3 +37,36 @@ const myFunction = function(){
 console.log(typeof bigNumber) //bigint
 
 //JavaScript is a dynamically typed language
+
+
+
+
+
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myYouTubeName = "hiteshchoudharydotcom"
+
+let anothername = myYouTubeName
+anothername = "chaiaurcode"
+
+console.log(myYouTubeName)//hiteshchoudharydotcom 
+console.log(anothername)//chaiaurcode
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@google.com"
+
+console.log(userOne.email) 
+console.log(userTwo.email)
